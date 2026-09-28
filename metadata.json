@@ -1,0 +1,8 @@
+{
+  "name": "Remix Remix Remix CuraLink — Hungary Patient Rights Navigator",
+  "description": "Navigator for Hungarian patients on public hospital waitlists exercising their legal EU cross-border healthcare rights via NEAK S2 and Directive routes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

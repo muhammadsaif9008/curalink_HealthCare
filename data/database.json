@@ -1,0 +1,850 @@
+{
+  "cases": [
+    {
+      "id": "case-demo-01",
+      "createdAt": "2026-09-12T09:30:00Z",
+      "updatedAt": "2026-09-26T14:15:00Z",
+      "userId": "user-patient-01",
+      "patientName": "Kovács László",
+      "tajNumber": "042-881-934",
+      "applicantRole": "patient",
+      "procedure": "Knee replacement",
+      "requiresPA": true,
+      "branch": "PA",
+      "monthsWaited": 18,
+      "scheduledDomesticDate": "2027-11-15",
+      "conditionNotes": "Severe bilateral gonarthrosis with Grade IV cartilage loss on left knee. Chronic pain at rest, walking distance under 150m, refractory to NSAIDs. Domestic waiting list scheduled 14 months further out.",
+      "hasEhic": true,
+      "requestTravelCost": true,
+      "travelCompanion": true,
+      "eesztDocumentName": "EESZT_Varolista_Kovacs_Laszlo_Ortopedia_2025.pdf",
+      "doctorNoteFileName": "Orvosi_Szakvelemeny_Dr_Kovacs_Peter_Pecsettel.pdf",
+      "doctorName": "Dr. Kovács Péter",
+      "doctorLicense": "MOK-HU-48192",
+      "selectedClinicId": "clinic-akh-vienna",
+      "currentStage": "Travelling / In Treatment",
+      "referenceNumber": "NEAK-2026-771940",
+      "submissionTimestamp": "2026-09-20T10:00:00Z",
+      "patientPhone": "+36 20 441 9821",
+      "chaperone": {
+        "name": "Balogh Zoltán (Vienna Dedicated Coordinator)",
+        "phone": "+43 676 812 4901"
+      },
+      "travelDates": "2026-09-25 – 2026-10-02",
+      "travelSupportDecision": "granted",
+      "travelSupportAmount": "45,000 HUF",
+      "travelSupportTiming": "before_travel",
+      "travelSupportPaid": true,
+      "travelSupportPaidAmount": "45,000 HUF",
+      "decisionLetterName": "NEAK_Hatarozat_S2_Kovacs_Laszlo.pdf",
+      "dispatchInfo": {
+        "signedScanFileName": "Kovacs_Laszlo_Alairt_S2_Kerelem.pdf",
+        "signedOriginalInHand": true,
+        "dateSent": "2026-09-16",
+        "trackingNumber": "RL771940982HU",
+        "submittedAt": "2026-09-16T10:00:00Z"
+      },
+      "managerNotes": [
+        {
+          "id": "note-1",
+          "timestamp": "2026-09-16T10:05:00Z",
+          "author": "Molnár Balázs (Case Manager)",
+          "text": "Patient signed form collected and verified in person. Registered postal packet dispatched to NEAK."
+        },
+        {
+          "id": "note-2",
+          "timestamp": "2026-09-23T09:00:00Z",
+          "author": "Molnár Balázs (Case Manager)",
+          "text": "Travel support advance paid (45,000 HUF). Chaperone Balogh Zoltán briefed for Vienna airport pickup."
+        }
+      ],
+      "supportContact": {
+        "name": "Balogh Zoltán (Vienna Dedicated Patient Coordinator)",
+        "phone": "+43 676 812 4901 / +36 30 412 8892"
+      },
+      "uploadedDocuments": [
+        {
+          "id": "doc-up-01",
+          "name": "AKH_Wien_Betegfelveteli_Lap_2026_09_26.pdf",
+          "timestamp": "2026-09-26T10:30:00Z",
+          "type": "On-site Hospital Admission Slip"
+        }
+      ],
+      "verification": {
+        "structuralCheck": {
+          "passed": true,
+          "details": [
+            "Dates present and confirmed past date (Entry: 2025-03-11)",
+            "Doctor credentials complete with official Hungarian Chamber format",
+            "EESZT waitlist record attachment validated (file hash logged)"
+          ],
+          "checkedAt": "2026-09-14T10:00:00Z"
+        },
+        "mokVerification": {
+          "passed": true,
+          "licenseNumber": "MOK-HU-48192",
+          "doctorName": "Dr. Kovács Péter",
+          "specialty": "Ortopédia és Traumatológia",
+          "institution": "Semmelweis Egyetem Ortopédiai Klinika",
+          "verifiedAt": "2026-09-14T10:02:10Z"
+        },
+        "clinicalJudgment": {
+          "status": "attested",
+          "advisorName": "Dr. Varga Zsuzsa (CuraLink Healthcare Advisor)",
+          "attestedAt": "2026-09-15T11:20:00Z",
+          "notes": "Evidence bundle verified. Total wait exceeding 18 months with Grade IV disability justifies S2 application under undue domestic delay jurisprudence (EU Regulation 883/2004 Art 20)."
+        }
+      },
+      "aiReasoning": "ASSESSMENT SUMMARY: Knee replacement requires inpatient admission and overnight stay, falling under the Fast-track pre-approval path (S2 pre-authorisation). Documented domestic wait exceeding medically acceptable timeframe justifies S2 application to AKH Vienna.",
+      "documentTitle": "Kérelem külföldi egészségügyi ellátásra (NEAK S2 Prior Authorisation Request)",
+      "fullDocument": "Tisztelt Nemzeti Egészségbiztosítási Alapkezelő!\nNemzetközi és Európai Integrációs Főosztály\n\nAlulírott [Patient name on file] (TAJ: [TAJ number on file]), kérelmezem a külföldi tervezett gyógykezelés (Térdízületi endoprotézis beültetés) S2 nyomtatvány kiállításával történő engedélyezését az AKH Vienna Központi Kórházban (Bécs, Ausztria).\n\nA hazai ellátási várólistán eltöltött idő jelenleg meghaladja a 18 hónapot, a legközelebbi hazai műtéti időpont pedig 2027 végére van ütemezve. Kezelőorvosom igazolása szerint az állapot progresszív mozgáskorlátozottsággal és állandó nyugalmi fájdalommal jár, így a hazai várakozási idő orvosilag nem indokolható a 883/2004/EK rendelet 20. cikke értelmében.\n\nTovábbá kérem méltányossági alapon a saját és kísérőm utazási költségeinek megtérítését a csatolt orvosi javaslat alapján. Mellékelten csatolom az EESZT várólista-kivonatot és a kezelőorvosi leleteket.\n\nKelt: Budapest, 2026. szeptember",
+      "advisorNotes": "Case reviewed and endorsed for NEAK international department submission. Travel companion support indicated due to severe mobility restriction.",
+      "history": [
+        {
+          "id": "hist-1",
+          "stage": "Drafted",
+          "timestamp": "2026-09-12T09:30:00Z",
+          "title": "Intake Completed & Form Drafted",
+          "note": "Patient submitted waitlist intake with EESZT proof and Dr. Kovács Péter note.",
+          "author": "Patient Self-Service Portal"
+        },
+        {
+          "id": "hist-2",
+          "stage": "Drafted",
+          "timestamp": "2026-09-14T10:02:10Z",
+          "title": "Evidence Bundle & MOK Verification Confirmed",
+          "note": "Structural verification passed. Doctor license MOK-HU-48192 verified active in Chamber registry.",
+          "author": "CuraLink Verification Engine"
+        },
+        {
+          "id": "hist-3",
+          "stage": "Reviewed",
+          "timestamp": "2026-09-15T11:20:00Z",
+          "title": "Reviewed by Advisor Gate Passed",
+          "note": "Human advisor Dr. Varga Zsuzsa validated medical urgency & justified delay grounds. Case unlocked for physical mailing submission.",
+          "author": "Dr. Varga Zsuzsa (Advisor)"
+        },
+        {
+          "id": "hist-4",
+          "stage": "Submitted",
+          "timestamp": "2026-09-16T10:00:00Z",
+          "title": "Document Dossier Dispatched by Registered Post",
+          "note": "Registered postal filing dispatched with reference NEAK-2026-771940.",
+          "author": "CuraLink Logistics",
+          "referenceNumber": "NEAK-2026-771940"
+        },
+        {
+          "id": "hist-5",
+          "stage": "Authorised",
+          "timestamp": "2026-09-22T14:30:00Z",
+          "title": "NEAK Issued S2 Authorisation Voucher",
+          "note": "Pre-approval granted for full public inpatient coverage at AKH Vienna.",
+          "author": "NEAK International Affairs Desk"
+        },
+        {
+          "id": "hist-6",
+          "stage": "Travelling / In Treatment",
+          "timestamp": "2026-09-26T08:00:00Z",
+          "title": "Patient Arrived at AKH Vienna with Dedicated Coordinator",
+          "note": "Patient met at airport by Balogh Zoltán. Hospital admission completed; surgical procedure scheduled.",
+          "author": "CuraLink Dedicated Coordinator Desk"
+        }
+      ]
+    },
+    {
+      "id": "case-reviewed-01",
+      "createdAt": "2026-09-22T08:00:00Z",
+      "updatedAt": "2026-09-27T10:00:00Z",
+      "userId": "user-patient-05",
+      "patientName": "Molnár Péter",
+      "tajNumber": "081-334-912",
+      "applicantRole": "patient",
+      "procedure": "Hip replacement",
+      "requiresPA": true,
+      "branch": "PA",
+      "monthsWaited": 20,
+      "scheduledDomesticDate": "2027-10-15",
+      "conditionNotes": "Severe bilateral osteoarthritis of the hip joint. Marked functional restriction and nighttime pain refractory to conservative analgesia.",
+      "hasEhic": true,
+      "requestTravelCost": true,
+      "travelCompanion": true,
+      "eesztDocumentName": "EESZT_Varolista_Molnar_Peter_Csipo.pdf",
+      "doctorName": "Dr. Varga Zsuzsa",
+      "doctorLicense": "MOK-HU-48192",
+      "selectedClinicId": "clinic-akh-vienna",
+      "currentStage": "Reviewed",
+      "patientPhone": "+36 30 712 9044",
+      "chaperone": {
+        "name": "Balogh Zoltán (Vienna Dedicated Coordinator)",
+        "phone": "+43 676 812 4901"
+      },
+      "travelDates": "2026-10-18 – 2026-10-25",
+      "advisorClinicalJustification": "Medically unjustifiable domestic delay verified. Over 20 months on waiting list with functional impairment meets EU Regulation 883/2004 Article 20 test.",
+      "advisorNotes": "Advisor Dr. Varga Zsuzsa attested medical necessity. Approved for NEAK dispatch.",
+      "verification": {
+        "structuralCheck": {
+          "passed": true,
+          "details": [
+            "Wait time > 18 months documented",
+            "EESZT record verified"
+          ],
+          "checkedAt": "2026-09-22T08:10:00Z"
+        },
+        "mokVerification": {
+          "passed": true,
+          "licenseNumber": "MOK-HU-48192",
+          "doctorName": "Dr. Varga Zsuzsa",
+          "specialty": "Ortopédia és Traumatológia",
+          "institution": "CuraLink Orvosszakértői Testület",
+          "verifiedAt": "2026-09-27T10:00:00Z"
+        },
+        "clinicalJudgment": {
+          "status": "attested",
+          "advisorName": "Dr. Varga Zsuzsa",
+          "attestedAt": "2026-09-27T10:00:00Z",
+          "notes": "Medically unjustifiable domestic delay verified. Over 20 months on waiting list with functional impairment meets EU Regulation 883/2004 Article 20 test."
+        }
+      },
+      "aiReasoning": "Hip replacement requires prior authorisation (S2 path). Documented wait of 20 months justifies cross-border care under EU case law.",
+      "documentTitle": "Kérelem külföldi egészségügyi ellátásra (NEAK S2 Előzetes Engedély)",
+      "fullDocument": "Tisztelt Nemzeti Egészségbiztosítási Alapkezelő!\nNemzetközi és Európai Integrációs Főosztály\n\nAlulírott Molnár Péter (TAJ: 081-334-912), kérelmezem a külföldi tervezett gyógykezelés (Csípőízületi endoprotézis beültetés) S2 nyomtatvány kiállításával történő engedélyezését az AKH Vienna Központi Kórházban (Bécs, Ausztria).\n\nA hazai várólistán igazoltan eltöltött idő meghaladja a 20 hónapot. Kezelőorvosi / szakértői igazolás szerint az állapot progresszív mozgáskorlátozottsággal jár, a hazai várakozási idő orvosilag nem indokolható a 883/2004/EK rendelet 20. cikke értelmében.\n\n[KEZELŐORVOSI ÉS ORVOSSZAKÉRTŐI ZÁRADÉK]\nSzakvéleményt kiállító orvosszakértő: Dr. Varga Zsuzsa\nMOK Kamarai nyilvántartási szám: MOK-HU-48192 (Ortopédia és Traumatológia)\nKlinikai indoklás: Medically unjustifiable domestic delay verified. Over 20 months on waiting list with functional impairment meets EU Regulation 883/2004 Article 20 test.\nMegállapítás: A hazai várólistás várakozási idő a beteg állapota és a bemutatott EESZT leletek alapján orvosilag nem indokolható a 883/2004/EK rendelet 20. cikke szerint.\n\nKelt: Budapest, 2026. szeptember",
+      "history": [
+        {
+          "id": "hist-rev-1",
+          "stage": "Drafted",
+          "timestamp": "2026-09-22T08:00:00Z",
+          "title": "Case Created & Evidence Uploaded",
+          "note": "EESZT proof and wait duration submitted.",
+          "author": "Patient Self-Service Portal"
+        },
+        {
+          "id": "hist-rev-2",
+          "stage": "Reviewed",
+          "timestamp": "2026-09-27T10:00:00Z",
+          "title": "Clinical Review Approved by Medical Advisor",
+          "note": "Dr. Varga Zsuzsa (MOK-HU-48192) attested clinical necessity. Case moved to Reviewed stage, ready for dispatch by Case Manager.",
+          "author": "Dr. Varga Zsuzsa"
+        }
+      ]
+    },
+    {
+      "id": "case-past-01",
+      "createdAt": "2025-10-12T09:30:00Z",
+      "updatedAt": "2026-03-20T14:15:00Z",
+      "userId": "user-patient-01",
+      "patientName": "Kovács László",
+      "tajNumber": "042-881-934",
+      "applicantRole": "patient",
+      "procedure": "Cataract surgery",
+      "requiresPA": false,
+      "branch": "NonPA",
+      "monthsWaited": 8,
+      "conditionNotes": "Right eye cataract extraction with intraocular lens implantation. Completed and fully reimbursed under Directive 2011/24/EU.",
+      "hasEhic": true,
+      "requestTravelCost": false,
+      "travelCompanion": false,
+      "eesztDocumentName": "EESZT_Archived_Szemeszet_2025.pdf",
+      "doctorNoteFileName": "Zarojelentes_Kovacs_2026.pdf",
+      "doctorName": "Dr. Farkas Judit",
+      "doctorLicense": "MOK-HU-19803",
+      "selectedClinicId": "clinic-bratislava-eye",
+      "currentStage": "Reimbursed",
+      "referenceNumber": "NEAK-2025-502194",
+      "submissionTimestamp": "2026-01-15T10:00:00Z",
+      "verification": {
+        "structuralCheck": {
+          "passed": true,
+          "details": [
+            "Settled and archived claim"
+          ],
+          "checkedAt": "2025-10-12T10:00:00Z"
+        },
+        "mokVerification": {
+          "passed": true,
+          "licenseNumber": "MOK-HU-19803",
+          "doctorName": "Dr. Farkas Judit",
+          "specialty": "Szemészet",
+          "institution": "Semmelweis Egyetem Szemészeti Klinika",
+          "verifiedAt": "2025-10-12T10:05:00Z"
+        },
+        "clinicalJudgment": {
+          "status": "attested",
+          "advisorName": "Tóth Miklós (Advisor)",
+          "attestedAt": "2025-10-14T11:00:00Z",
+          "notes": "Completed day-surgery claim. Verified."
+        }
+      },
+      "aiReasoning": "Directive 2011/24/EU outpatient reimbursement finalized and paid.",
+      "documentTitle": "Utólagos Költségtérítési Kérelem (Lezárt)",
+      "fullDocument": "Archive copy of finalized reimbursement application for Kovács László.",
+      "history": [
+        {
+          "id": "hist-past-1",
+          "stage": "Drafted",
+          "timestamp": "2025-10-12T09:30:00Z",
+          "title": "Case Created",
+          "note": "Outpatient cataract surgery claimed.",
+          "author": "Patient Portal"
+        },
+        {
+          "id": "hist-past-2",
+          "stage": "Reimbursed",
+          "timestamp": "2026-03-20T14:15:00Z",
+          "title": "Claim Settled and Closed",
+          "note": "168,000 HUF reimbursed by NEAK. Case closed.",
+          "author": "NEAK International Department"
+        }
+      ]
+    },
+    {
+      "id": "case-demo-02",
+      "createdAt": "2026-09-18T14:10:00Z",
+      "updatedAt": "2026-09-24T16:00:00Z",
+      "userId": "user-patient-02",
+      "patientName": "Varga Éva",
+      "tajNumber": "118-293-401",
+      "applicantRole": "patient",
+      "procedure": "Cataract surgery",
+      "requiresPA": false,
+      "branch": "NonPA",
+      "monthsWaited": 9,
+      "conditionNotes": "Cortical and nuclear cataract right eye. Visual acuity dropped to 0.2. Significant impairment in daily activities and driving.",
+      "hasEhic": true,
+      "requestTravelCost": false,
+      "travelCompanion": false,
+      "eesztDocumentName": "EESZT_Szemeszet_Elokelojegzes_2026_01.pdf",
+      "doctorNoteFileName": "Szemeszeti_Statuszlap_Dr_Farkas_Judit.pdf",
+      "doctorName": "Dr. Farkas Judit",
+      "doctorLicense": "MOK-HU-19803",
+      "selectedClinicId": "clinic-bratislava-eye",
+      "currentStage": "Reimbursed",
+      "referenceNumber": "NEAK-2026-884102",
+      "submissionTimestamp": "2026-09-20T11:00:00Z",
+      "supportContact": {
+        "name": "Horváth Mónika (Bratislava Patient Coordinator)",
+        "phone": "+421 905 412 883 / +36 70 318 9912"
+      },
+      "verification": {
+        "structuralCheck": {
+          "passed": true,
+          "details": [
+            "Dates confirmed consistent with 9-month documented wait",
+            "Doctor license MOK-HU-19803 matches official ophthalmology register",
+            "EESZT electronic pre-registration document uploaded"
+          ],
+          "checkedAt": "2026-09-18T14:15:00Z"
+        },
+        "mokVerification": {
+          "passed": true,
+          "licenseNumber": "MOK-HU-19803",
+          "doctorName": "Dr. Farkas Judit",
+          "specialty": "Szemészet és Katarakta Sebészet",
+          "institution": "Semmelweis Egyetem Szemészeti Klinika",
+          "verifiedAt": "2026-09-18T14:16:00Z"
+        },
+        "clinicalJudgment": {
+          "status": "attested",
+          "advisorName": "Tóth Miklós (CuraLink Case Advisor)",
+          "attestedAt": "2026-09-19T09:40:00Z",
+          "notes": "Outpatient cataract procedure confirmed under Directive 2011/24/EU. Standard treatment-and-claim path verified."
+        }
+      },
+      "aiReasoning": "ASSESSMENT SUMMARY: Cataract surgery is standard day surgery without overnight stay. Under Directive 2011/24/EU (Standard treatment-and-claim path), Prior Authorisation is not required. Treatment at Bratislava Eye Clinic reimbursable post-treatment up to the Hungarian domestic tariff.",
+      "documentTitle": "Utólagos Költségtérítési Kérelem és Mellékletjegyzék (Directive 2011/24/EU Cover Sheet)",
+      "fullDocument": "Tisztelt Nemzeti Egészségbiztosítási Alapkezelő!\nNemzetközi és Európai Integrációs Főosztály\n\nAlulírott [Patient name on file] (TAJ: [TAJ number on file]), a határon átnyúló egészségügyi ellátásra vonatkozó 2011/24/EU irányelv és a 340/2013. (IX. 25.) Korm. rendelet alapján benyújtom költségtérítési igényemet a szlovákiai Bratislava Ophthalmic Institute-ban elvégzett szürkehályog-műtét (cataracta) kapcsán.\n\nA beavatkozás járóbeteg-ellátás keretében, éjszakai bentfekvés nélkül történt, így előzetes engedélyhez nem kötött.\n\nCsatolt dokumentáció a NEAK előírásoknak megfelelően:\n1. Eredeti záradékolt külföldi számla\n2. Hiteles magyar nyelvű fordítás\n3. Pénzügyi kiegyenlítés banki bizonylata\n4. Részletes orvosi ambuláns lap és zárójelentés\n5. Szükséges gyógyszerrendelések és receptek\n\nKelt: Budapest, 2026. szeptember",
+      "article9_5Document": "Tisztelt Nemzeti Egészségbiztosítási Alapkezelő!\nHivatkozással a 2011/24/EU európai parlamenti és tanácsi irányelv 9. cikk (5) bekezdésére, kérem a NEAK hivatalos írásbeli visszaigazolását a tervezett szürkehályog-műtét (Bratislava Ophthalmic Institute) hazai NEAK-finanszírozási referenciaértékéről az ellátás külföldi igénybevétele előtt.",
+      "advisorNotes": "Directive post-treatment package prepared. Optional Article 9(5) prior confirmation letter generated.",
+      "history": [
+        {
+          "id": "hist-101",
+          "stage": "Drafted",
+          "timestamp": "2026-09-18T14:10:00Z",
+          "title": "Intake Completed (Standard Claim Path)",
+          "note": "Cataract surgery classified as outpatient day surgery.",
+          "author": "Patient Self-Service Portal"
+        },
+        {
+          "id": "hist-102",
+          "stage": "Reviewed",
+          "timestamp": "2026-09-19T09:40:00Z",
+          "title": "Reviewed by Advisor Gate Passed",
+          "note": "Case advisor Tóth Miklós validated documents. Directive route confirmed.",
+          "author": "Tóth Miklós (Advisor)"
+        },
+        {
+          "id": "hist-103",
+          "stage": "Travelling / In Treatment",
+          "timestamp": "2026-09-20T11:00:00Z",
+          "title": "Patient Travelled to Bratislava Clinic",
+          "note": "Patient en route to Bratislava Ophthalmic Institute with dedicated local coordinator support. No pre-travel NEAK filing needed under Directive 2011/24/EU.",
+          "author": "CuraLink Logistics & Patient Support"
+        },
+        {
+          "id": "hist-104",
+          "stage": "Treated",
+          "timestamp": "2026-09-22T10:00:00Z",
+          "title": "Outpatient Cataract Surgery Successfully Performed",
+          "note": "Treatment concluded at Bratislava Ophthalmic Institute.",
+          "author": "Bratislava Patient Coordinator"
+        },
+        {
+          "id": "hist-105",
+          "stage": "Reimbursed",
+          "timestamp": "2026-09-24T16:00:00Z",
+          "title": "NEAK Reimbursement Settled",
+          "note": "NEAK confirmed domestic tariff reimbursement of 168,000 HUF transferred to patient account.",
+          "author": "NEAK International Department Settlement"
+        }
+      ]
+    },
+    {
+      "id": "case-demo-03",
+      "createdAt": "2026-08-05T10:00:00Z",
+      "updatedAt": "2026-09-10T12:00:00Z",
+      "userId": "user-patient-03",
+      "patientName": "Németh Ferenc",
+      "tajNumber": "093-412-581",
+      "applicantRole": "patient",
+      "procedure": "Hip replacement",
+      "requiresPA": true,
+      "branch": "PA",
+      "monthsWaited": 21,
+      "scheduledDomesticDate": "2027-08-30",
+      "conditionNotes": "Advanced coxarthrosis, avascular necrosis right femoral head. Severe functional deficit.",
+      "hasEhic": true,
+      "requestTravelCost": true,
+      "travelCompanion": false,
+      "eesztDocumentName": "EESZT_Varolista_Nemeth_Ferenc_2025.pdf",
+      "doctorNoteFileName": "Ortopediai_Zarolelet_Dr_Nagy_Eszter.pdf",
+      "doctorName": "Dr. Nagy Eszter",
+      "doctorLicense": "MOK-HU-33108",
+      "selectedClinicId": "clinic-akh-vienna",
+      "currentStage": "SOLVIT Appeal Drafted",
+      "referenceNumber": "NEAK-2026-440219",
+      "rejectionReason": "NEAK decision cited theoretical domestic hospital capacity, claiming domestic treatment within 12 months is achievable despite the 21 months already elapsed.",
+      "submissionTimestamp": "2026-08-15T09:00:00Z",
+      "supportContact": {
+        "name": "Balogh Zoltán (Vienna Dedicated Coordinator)",
+        "phone": "+43 676 812 4901"
+      },
+      "verification": {
+        "structuralCheck": {
+          "passed": true,
+          "details": [
+            "All dates verified",
+            "Doctor license verified active"
+          ],
+          "checkedAt": "2026-08-05T10:10:00Z"
+        },
+        "mokVerification": {
+          "passed": true,
+          "licenseNumber": "MOK-HU-33108",
+          "doctorName": "Dr. Nagy Eszter",
+          "specialty": "Ortopéd Sebészet",
+          "institution": "Uzsoki Utcai Kórház",
+          "verifiedAt": "2026-08-05T10:12:00Z"
+        },
+        "clinicalJudgment": {
+          "status": "attested",
+          "advisorName": "Dr. Varga Zsuzsa (Advisor)",
+          "attestedAt": "2026-08-06T15:00:00Z",
+          "notes": "Clinical necessity attested. Rejection by NEAK contradicts EU case law on justifiable domestic delay."
+        }
+      },
+      "aiReasoning": "ASSESSMENT SUMMARY: Inpatient hip arthroplasty requires Prior Authorisation. The refusal on grounds of theoretical domestic capacity contradicts CJEU rulings (e.g. Inizan, Watts) where actual waiting times exceed clinical acceptability.",
+      "documentTitle": "Kérelem külföldi egészségügyi ellátásra (NEAK S2 Prior Authorisation Request)",
+      "fullDocument": "Tisztelt Nemzeti Egészségbiztosítási Alapkezelő!\nAlulírott [Patient name on file] (TAJ: [TAJ number on file]) kérelmezem a külföldi gyógykezelés engedélyezését csípőprotézis beültetésére az AKH Vienna klinikán. A hazai várólista jelenleg 21 hónapja tart, orvosilag indokolatlan késedelmet okozva.",
+      "solvitDocument": "SOLVIT Cross-Border Complaint & Appeal Brief\nTo: SOLVIT Centre Hungary & SOLVIT Austria\nRe: Wrongful Denial of S2 Prior Authorisation by NEAK (Reference: NEAK-2026-440219)\nComplainant: [Patient name on file], Hungarian Insured Citizen (TAJ: [TAJ number on file])\n\n1. LEGAL BASIS OF DISPUTE\nUnder Article 20 of Regulation (EC) No 883/2004 and established Court of Justice of the European Union case law (Case C-372/04 Watts, Case C-56/01 Inizan), a competent national health institution CANNOT refuse prior authorisation for hospital treatment in another Member State if the domestic waiting time exceeds what is medically acceptable based on an objective clinical assessment of the patient's individual condition.\n\n2. FACTS OF THE CASE\nThe patient has already endured 21 months of documented wait time for right hip arthroplasty with confirmed avascular necrosis of the femoral head. NEAK refused prior authorisation citing generalized theoretical national capacity, without presenting an immediate clinical alternative.\n\n3. REMEDY REQUESTED\nIntervention by the SOLVIT network to request NEAK's formal reconsideration and immediate issuance of the S2 Portable Document for scheduled intervention at AKH Vienna.",
+      "advisorNotes": "Case wrongfully refused by NEAK. SOLVIT appeal brief drafted ready for submission through the European Commission SOLVIT portal.",
+      "history": [
+        {
+          "id": "hist-201",
+          "stage": "Drafted",
+          "timestamp": "2026-08-05T10:00:00Z",
+          "title": "Intake Completed",
+          "note": "Hip replacement intake created.",
+          "author": "Patient Portal"
+        },
+        {
+          "id": "hist-202",
+          "stage": "Reviewed",
+          "timestamp": "2026-08-06T15:00:00Z",
+          "title": "Reviewed by Advisor Gate Passed",
+          "note": "Medical necessity attested by Dr. Varga Zsuzsa.",
+          "author": "Dr. Varga Zsuzsa (Advisor)"
+        },
+        {
+          "id": "hist-203",
+          "stage": "Submitted",
+          "timestamp": "2026-08-15T09:00:00Z",
+          "title": "Submitted to NEAK International Department",
+          "note": "Application mailed with reference NEAK-2026-440219.",
+          "author": "CuraLink Logistics",
+          "referenceNumber": "NEAK-2026-440219"
+        },
+        {
+          "id": "hist-204",
+          "stage": "Rejected",
+          "timestamp": "2026-09-10T12:00:00Z",
+          "title": "Update from case manager's NEAK follow-up call",
+          "note": "NEAK case officer stated domestic capacity is theoretically adequate. Rejection notice issued.",
+          "author": "Case Manager Telephone Follow-Up"
+        },
+        {
+          "id": "hist-205",
+          "stage": "SOLVIT Appeal Drafted",
+          "timestamp": "2026-09-12T14:00:00Z",
+          "title": "SOLVIT Cross-Border Complaint Formalized",
+          "note": "Administrative refusal appealed via SOLVIT network.",
+          "author": "CuraLink Legal Navigation Desk"
+        }
+      ]
+    },
+    {
+      "id": "case-demo-04",
+      "createdAt": "2026-09-10T11:00:00Z",
+      "updatedAt": "2026-09-23T15:20:00Z",
+      "userId": "user-patient-04",
+      "patientName": "Szabó Anna",
+      "tajNumber": "109-843-221",
+      "applicantRole": "patient",
+      "procedure": "Cataract surgery",
+      "requiresPA": false,
+      "branch": "NonPA",
+      "monthsWaited": 11,
+      "scheduledDomesticDate": "2027-04-10",
+      "conditionNotes": "Progressive cataract in left eye with severe glare disability and impaired reading ability.",
+      "hasEhic": true,
+      "requestTravelCost": false,
+      "travelCompanion": false,
+      "eesztDocumentName": "EESZT_Varolista_Szabo_Anna_2025.pdf",
+      "doctorNoteFileName": "Szakorvosi_Lelet_Dr_Szabo_Anna.pdf",
+      "doctorName": "Dr. Szabó Anna",
+      "doctorLicense": "MOK-HU-71044",
+      "selectedClinicId": "clinic-bratislava-eye",
+      "currentStage": "Treated",
+      "claimSlots": {
+        "paidInvoice": {
+          "fileName": "Bratislava_Klinika_Szamla_Kifizetve.pdf",
+          "uploadedAt": "2026-09-24T14:30:00Z"
+        }
+      },
+      "claimReviewStatus": "ready_to_prepare",
+      "submissionTimestamp": "2026-09-15T09:00:00Z",
+      "supportContact": {
+        "name": "Horváth Mónika (Bratislava Patient Coordinator)",
+        "phone": "+421 905 412 883"
+      },
+      "verification": {
+        "structuralCheck": {
+          "passed": true,
+          "details": [
+            "All dates verified",
+            "EESZT proof attached"
+          ],
+          "checkedAt": "2026-09-10T11:05:00Z"
+        },
+        "mokVerification": {
+          "passed": true,
+          "licenseNumber": "MOK-HU-71044",
+          "doctorName": "Dr. Szabó Anna",
+          "specialty": "Szemészet",
+          "institution": "Észak-Közép-budai Centrum, Szent János Kórház",
+          "verifiedAt": "2026-09-10T11:06:00Z"
+        },
+        "clinicalJudgment": {
+          "status": "attested",
+          "advisorName": "Tóth Miklós (Advisor)",
+          "attestedAt": "2026-09-12T10:00:00Z",
+          "notes": "Directive pre-notification approved."
+        }
+      },
+      "aiReasoning": "ASSESSMENT SUMMARY: Outpatient cataract surgery proceeds under the Standard treatment-and-claim path. Under Directive 2011/24/EU, no prior authorization is required before travel.",
+      "documentTitle": "Utólagos Költségtérítési Kérelem és Mellékletjegyzék (Directive 2011/24/EU)",
+      "fullDocument": "Tisztelt Nemzeti Egészségbiztosítási Alapkezelő!\nNemzetközi és Európai Integrációs Főosztály\n\nAlulírott [Patient name on file] (TAJ: [TAJ number on file]), a 2011/24/EU irányelv és a 340/2013. (IX. 25.) Korm. rendelet alapján benyújtom költségtérítési igényemet szürkehályog-műtét kapcsán a Bratislava Ophthalmic Institute klinikán.",
+      "advisorNotes": "Standard treatment and claim path. Patient proceeded directly to travel and treatment with dedicated coordinator support.",
+      "history": [
+        {
+          "id": "hist-301",
+          "stage": "Drafted",
+          "timestamp": "2026-09-10T11:00:00Z",
+          "title": "Intake Completed",
+          "note": "Cataract surgery case created under Standard treatment path.",
+          "author": "Patient Self-Service Portal"
+        },
+        {
+          "id": "hist-302",
+          "stage": "Reviewed",
+          "timestamp": "2026-09-12T10:00:00Z",
+          "title": "Reviewed by Advisor Gate Passed",
+          "note": "Advisor confirmed validity of medical grounds. Under Directive 2011/24/EU, no documentation needed before travel.",
+          "author": "Tóth Miklós (Advisor)"
+        },
+        {
+          "id": "hist-303",
+          "stage": "Travelling / In Treatment",
+          "timestamp": "2026-09-15T09:00:00Z",
+          "title": "Patient En Route / In Treatment at Bratislava Clinic",
+          "note": "Patient admitted at Bratislava Ophthalmic Institute with dedicated on-site chaperone Horváth Mónika.",
+          "author": "CuraLink Logistics & Patient Support"
+        }
+      ]
+    },
+    {
+      "id": "case-demo-05",
+      "createdAt": "2026-07-21T08:00:00Z",
+      "updatedAt": "2026-09-01T11:30:00Z",
+      "userId": "user-patient-05",
+      "patientName": "Molnár Péter",
+      "tajNumber": "081-334-912",
+      "applicantRole": "patient",
+      "procedure": "Knee replacement",
+      "requiresPA": true,
+      "branch": "PA",
+      "monthsWaited": 12,
+      "scheduledDomesticDate": "2027-02-15",
+      "conditionNotes": "Moderate gonarthrosis. Domestic slot provided within allowable limit; application refused by NEAK and no appeal initiated.",
+      "hasEhic": true,
+      "requestTravelCost": false,
+      "travelCompanion": false,
+      "eesztDocumentName": "EESZT_Varolista_Molnar_Peter_2025.pdf",
+      "doctorNoteFileName": "Szakorvosi_Javaslat_Dr_Molnar_Laszlo.pdf",
+      "doctorName": "Dr. Molnár László",
+      "doctorLicense": "MOK-HU-56420",
+      "selectedClinicId": "clinic-akh-vienna",
+      "currentStage": "Rejected",
+      "rejectionReason": "NEAK concluded domestic waiting time is within allowable thresholds; domestic hospital slot available within 8 months. Application closed without appeal.",
+      "referenceNumber": "NEAK-2026-109844",
+      "submissionTimestamp": "2026-08-01T09:00:00Z",
+      "supportContact": {
+        "name": "Balogh Zoltán (Vienna Dedicated Coordinator)",
+        "phone": "+43 676 812 4901"
+      },
+      "verification": {
+        "structuralCheck": {
+          "passed": true,
+          "details": [
+            "Documented 12-month wait verified",
+            "Doctor license verified active"
+          ],
+          "checkedAt": "2026-07-21T08:10:00Z"
+        },
+        "mokVerification": {
+          "passed": true,
+          "licenseNumber": "MOK-HU-56420",
+          "doctorName": "Dr. Molnár László",
+          "specialty": "Általános és Szaksebészet",
+          "institution": "Magyar Honvédség Egészségügyi Központ (Honvédkórház)",
+          "verifiedAt": "2026-07-21T08:11:00Z"
+        },
+        "clinicalJudgment": {
+          "status": "attested",
+          "advisorName": "Dr. Varga Zsuzsa (Advisor)",
+          "attestedAt": "2026-07-25T11:30:00Z",
+          "notes": "Advisor attested. Dispatched to NEAK."
+        }
+      },
+      "aiReasoning": "Inpatient joint replacement S2 application was processed and subsequently rejected by NEAK due to domestic availability. Case is closed.",
+      "documentTitle": "Kérelem külföldi egészségügyi ellátásra (Elutasítva / Lezárt)",
+      "fullDocument": "Tisztelt Nemzeti Egészségbiztosítási Alapkezelő!\nNemzetközi és Európai Integrációs Főosztály\n\nAlulírott [Patient name on file] (TAJ: [TAJ number on file]), kérelmezem a külföldi gyógykezelés (Térdízületi endoprotézis) engedélyezését S2 nyomtatvány kiállításával az AKH Vienna intézményben.",
+      "advisorNotes": "Case was rejected by NEAK without subsequent appeal.",
+      "history": [
+        {
+          "id": "hist-401",
+          "stage": "Drafted",
+          "timestamp": "2026-07-21T08:00:00Z",
+          "title": "Intake Completed",
+          "note": "Knee replacement case created.",
+          "author": "Patient Portal"
+        },
+        {
+          "id": "hist-402",
+          "stage": "Reviewed",
+          "timestamp": "2026-07-25T11:30:00Z",
+          "title": "Reviewed by Advisor Gate Passed",
+          "note": "Attested by Dr. Varga Zsuzsa. Ready for physical mailing.",
+          "author": "Dr. Varga Zsuzsa (Advisor)"
+        },
+        {
+          "id": "hist-403",
+          "stage": "Submitted",
+          "timestamp": "2026-08-01T09:00:00Z",
+          "title": "Application Dispatched to NEAK",
+          "note": "Filing reference NEAK-2026-109844.",
+          "author": "CuraLink Logistics"
+        },
+        {
+          "id": "hist-404",
+          "stage": "Rejected",
+          "timestamp": "2026-09-01T11:30:00Z",
+          "title": "NEAK Decision: Refusal Notice Issued",
+          "note": "NEAK cited sufficient domestic capacity. Patient did not appeal within 30-day window. Case closed.",
+          "author": "NEAK International Affairs Desk"
+        }
+      ]
+    },
+    {
+      "id": "case-awaiting-01",
+      "createdAt": "2026-09-24T08:15:00Z",
+      "updatedAt": "2026-09-24T08:15:00Z",
+      "userId": "user-patient-03",
+      "patientName": "Németh Ferenc",
+      "tajNumber": "093-412-581",
+      "applicantRole": "patient",
+      "procedure": "Hip replacement",
+      "requiresPA": true,
+      "branch": "PA",
+      "monthsWaited": 19,
+      "scheduledDomesticDate": "2027-08-20",
+      "conditionNotes": "Severe left hip coxarthrosis with Grade IV joint space narrowing. Progressive mobility loss, rest pain refractory to analgesics.",
+      "hasEhic": true,
+      "requestTravelCost": true,
+      "travelCompanion": true,
+      "eesztDocumentName": "EESZT_Varolista_Nemeth_Ferenc_Csipo_2025.pdf",
+      "doctorName": "",
+      "doctorLicense": "",
+      "selectedClinicId": "clinic-akh-vienna",
+      "currentStage": "Awaiting Advisor Review",
+      "history": [
+        {
+          "id": "hist-await-01",
+          "stage": "Awaiting Advisor Review",
+          "timestamp": "2026-09-24T08:15:00Z",
+          "title": "Case Submitted — Awaiting Medical Advisor Review",
+          "note": "Case created for Hip replacement. Uploaded EESZT proof 'EESZT_Varolista_Nemeth_Ferenc_Csipo_2025.pdf'. Your case has been sent to a CuraLink medical advisor for clinical review. You don't need to visit your own doctor.",
+          "author": "Patient Self-Service Portal"
+        }
+      ],
+      "verification": {
+        "structuralCheck": {
+          "passed": true,
+          "details": [
+            "Documented wait of 19 months logged.",
+            "EESZT record: 'EESZT_Varolista_Nemeth_Ferenc_Csipo_2025.pdf' uploaded as proof."
+          ],
+          "checkedAt": "2026-09-24T08:15:00Z"
+        },
+        "mokVerification": {
+          "passed": false,
+          "licenseNumber": "",
+          "verifiedAt": ""
+        },
+        "clinicalJudgment": {
+          "status": "pending",
+          "notes": "Your case has been sent to a CuraLink medical advisor for clinical review. You don't need to visit your own doctor."
+        }
+      },
+      "aiReasoning": "ASSESSMENT SUMMARY: Hip replacement requires inpatient admission and falls under the Fast-track pre-approval (S2) path. Documented domestic wait of 19 months exceeds acceptable clinical threshold. Clinical attestation by medical advisor required.",
+      "documentTitle": "Kérelem külföldi egészségügyi ellátásra (NEAK S2 Előzetes Engedély)",
+      "fullDocument": "Tisztelt Nemzeti Egészségbiztosítási Alapkezelő!\nNemzetközi és Európai Integrációs Főosztály\n\nAlulírott [Patient name on file] (TAJ: [TAJ number on file]), kérelmezem a külföldi tervezett gyógykezelés (Csípőízületi endoprotézis beültetés) S2 nyomtatvány kiállításával történő engedélyezését az AKH Vienna Központi Kórházban (Bécs, Ausztria).\n\nA hazai várólistán igazoltan eltöltött idő meghaladja a 19 hónapot. A kitűzött időpont 2027 augusztusára esik. A beteg állapotának súlyossága és a progresszív mozgáskorlátozottság miatt a várakozási idő orvosilag nem indokolható a 883/2004/EK rendelet 20. cikke szerint."
+    },
+    {
+      "id": "case-awaiting-02",
+      "createdAt": "2026-09-26T11:45:00Z",
+      "updatedAt": "2026-09-26T11:45:00Z",
+      "userId": "user-patient-04",
+      "patientName": "Szabó Anna",
+      "tajNumber": "109-843-221",
+      "applicantRole": "patient",
+      "procedure": "Cataract surgery",
+      "requiresPA": false,
+      "branch": "NonPA",
+      "monthsWaited": 11,
+      "scheduledDomesticDate": "2026-12-15",
+      "conditionNotes": "Bilateral senile cataracts with severe visual impairment, visual acuity 0.2 in right eye. Impairing daily activities.",
+      "hasEhic": true,
+      "requestTravelCost": false,
+      "travelCompanion": false,
+      "eesztDocumentName": "EESZT_Szemeszet_Szabo_Anna_2026.pdf",
+      "doctorName": "",
+      "doctorLicense": "",
+      "selectedClinicId": "clinic-bratislava-eye",
+      "currentStage": "Awaiting Advisor Review",
+      "history": [
+        {
+          "id": "hist-await-02",
+          "stage": "Awaiting Advisor Review",
+          "timestamp": "2026-09-26T11:45:00Z",
+          "title": "Case Submitted — Awaiting Medical Advisor Review",
+          "note": "Case created for Cataract surgery. Uploaded EESZT proof 'EESZT_Szemeszet_Szabo_Anna_2026.pdf'. Your case has been sent to a CuraLink medical advisor for clinical review. You don't need to visit your own doctor.",
+          "author": "Patient Self-Service Portal"
+        }
+      ],
+      "verification": {
+        "structuralCheck": {
+          "passed": true,
+          "details": [
+            "Documented wait of 11 months logged.",
+            "EESZT record: 'EESZT_Szemeszet_Szabo_Anna_2026.pdf' uploaded as proof."
+          ],
+          "checkedAt": "2026-09-26T11:45:00Z"
+        },
+        "mokVerification": {
+          "passed": false,
+          "licenseNumber": "",
+          "verifiedAt": ""
+        },
+        "clinicalJudgment": {
+          "status": "pending",
+          "notes": "Your case has been sent to a CuraLink medical advisor for clinical review. You don't need to visit your own doctor."
+        }
+      },
+      "aiReasoning": "ASSESSMENT SUMMARY: Cataract surgery is an outpatient day-surgery procedure under Directive 2011/24/EU (Direct Reimbursement Claim). Documented 11 months domestic wait qualifies for cross-border care without S2 prior authorisation.",
+      "documentTitle": "Utólagos Költségtérítési Kérelem és Mellékletjegyzék (2011/24/EU Irányelv)",
+      "fullDocument": "Tisztelt Nemzeti Egészségbiztosítási Alapkezelő!\nNemzetközi és Európai Integrációs Főosztály\n\nAlulírott [Patient name on file] (TAJ: [TAJ number on file]), bejelentem szándékomat egynapos szürkehályog-műtét igénybevételére az Európai Unió tagállamában (Bratislava Eye Center) a 2011/24/EU európai parlamenti és tanácsi irányelv alapján.\n\nA hazai várólistán már eltöltött várakozási idő 11 hónap, amely a látásélesség progresszív romlása mellett indokolja az ellátás határon átnyúló igénybevételét."
+    }
+  ],
+  "users": [
+    {
+      "id": "user-patient-01",
+      "name": "Kovács László",
+      "email": "kovacs.laszlo@example.hu",
+      "role": "patient",
+      "tajDemo": "042-881-934"
+    },
+    {
+      "id": "user-patient-02",
+      "name": "Varga Éva",
+      "email": "varga.eva@example.hu",
+      "role": "patient",
+      "tajDemo": "118-293-401"
+    },
+    {
+      "id": "user-patient-03",
+      "name": "Németh Ferenc",
+      "email": "nemeth.ferenc@example.hu",
+      "role": "patient",
+      "tajDemo": "093-412-581"
+    },
+    {
+      "id": "user-patient-04",
+      "name": "Szabó Anna",
+      "email": "szabo.anna@example.hu",
+      "role": "patient",
+      "tajDemo": "109-843-221"
+    },
+    {
+      "id": "user-patient-05",
+      "name": "Molnár Péter",
+      "email": "molnar.peter@example.hu",
+      "role": "patient",
+      "tajDemo": "081-334-912"
+    },
+    {
+      "id": "user-advisor-01",
+      "name": "Dr. Varga Zsuzsa",
+      "email": "varga.zsuzsa@curalink.hu",
+      "role": "advisor",
+      "tajDemo": "000-000-000",
+      "mokLicense": "MOK-HU-48192",
+      "specialty": "Ortopédia és Traumatológia"
+    },
+    {
+      "id": "user-manager-01",
+      "name": "Molnár Balázs",
+      "email": "molnar.balazs@curalink.hu",
+      "role": "case_manager",
+      "tajDemo": "000-000-000"
+    }
+  ]
+}
